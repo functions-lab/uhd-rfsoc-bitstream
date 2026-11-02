@@ -1,0 +1,3 @@
+*.bit binary
+*.hwh text eol=lf
+*.rpt text eol=lf

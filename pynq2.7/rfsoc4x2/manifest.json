@@ -1,0 +1,706 @@
+{
+ "board": "rfsoc4x2",
+ "pynq": "2.7",
+ "vivado": "2021.1",
+ "builds": [
+  {
+   "name": "rfsoc4x2_v49_1ch_qsfp_f2_fs5000",
+   "channels": 1,
+   "factor": 2,
+   "fs_msps": 5000.0,
+   "commit": "ea02c5bb343f55082a219d021bcf745083fb72a1",
+   "rates": [
+    {
+     "msps": 2500.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 1666.666667,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 1250.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 1000.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 833.333333,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 625.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 500.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 416.666667,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 312.5,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 250.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 208.333333,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 125.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    }
+   ],
+   "fastest_sc16_msps": 2500.0,
+   "wns_ns": 0.013,
+   "whs_ns": 0.009,
+   "files": {
+    "rfsoc4x2_v49_1ch_qsfp_f2_fs5000.bit": "4cb1c9978c28a231202ff8c0a1f39b4bc664b535e2b948c46dfb94d6baa03e14",
+    "rfsoc4x2_v49_1ch_qsfp_f2_fs5000.hwh": "0a448ae5dafd99bd0536dc98db59ac10467868989a2865777110ac7905cf94c2",
+    "rfsoc4x2_v49_1ch_qsfp_f2_fs5000.timing_summary.rpt": "56ed7c85cbac2351416e3dacbae1b2c89f8d2cebca82ccf5a791b795865da678",
+    "rfsoc4x2_v49_1ch_qsfp_f2_fs5000.utilization.rpt": "5b7aef2d9454fe7555d5ba07337530705a3ec2b71268f9f1060beb8f51b93d93"
+   }
+  },
+  {
+   "name": "rfsoc4x2_v49_2ch_qsfp_f4_fs5000",
+   "channels": 2,
+   "factor": 4,
+   "fs_msps": 5000.0,
+   "commit": "ea02c5bb343f55082a219d021bcf745083fb72a1",
+   "rates": [
+    {
+     "msps": 1250.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 1000.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 833.333333,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 625.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 500.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 416.666667,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 312.5,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 250.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 208.333333,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 125.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    }
+   ],
+   "fastest_sc16_msps": 1250.0,
+   "wns_ns": 0.004,
+   "whs_ns": 0.005,
+   "files": {
+    "rfsoc4x2_v49_2ch_qsfp_f4_fs5000.bit": "667907d7d266f14eaa37a78d546f085274a6765f3a26bd7e2970c0ae38b00e9d",
+    "rfsoc4x2_v49_2ch_qsfp_f4_fs5000.hwh": "78a80404ce2218ca94c08463f3474dcaf06215cdd8db49a8309fd8ddc550efde",
+    "rfsoc4x2_v49_2ch_qsfp_f4_fs5000.timing_summary.rpt": "dced170a2fd072aa61b644af6b9d00a808249a5cbc741f5522b449aee8b3eeb7",
+    "rfsoc4x2_v49_2ch_qsfp_f4_fs5000.utilization.rpt": "fddfaf38b94ed46f0b2004c9042ed7c5824614717220bfcbc38fb812ad563d46"
+   }
+  },
+  {
+   "name": "rfsoc4x2_v49_1ch_qsfp_f2_fs4915p2",
+   "channels": 1,
+   "factor": 2,
+   "fs_msps": 4915.2,
+   "commit": "ea02c5bb343f55082a219d021bcf745083fb72a1",
+   "rates": [
+    {
+     "msps": 2457.6,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 1638.4,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 1228.8,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 983.04,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 819.2,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 614.4,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 491.52,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 409.6,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 307.2,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 245.76,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 204.8,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 122.88,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    }
+   ],
+   "fastest_sc16_msps": 2457.6,
+   "wns_ns": 0.002,
+   "whs_ns": 0.011,
+   "files": {
+    "rfsoc4x2_v49_1ch_qsfp_f2_fs4915p2.bit": "8df931cc7b29bd44f28522eeb411ac0c14519a390c486c178b5cd9895f77f810",
+    "rfsoc4x2_v49_1ch_qsfp_f2_fs4915p2.hwh": "e9fee06b8ea772fd828df30a8cbd0bf2ef934638c52da3f951de95eb44ca843d",
+    "rfsoc4x2_v49_1ch_qsfp_f2_fs4915p2.timing_summary.rpt": "f1905d65c9c4b1e6c02a538b0913f0319cf1a3f5ccbfc33a4c3a457a7da412aa",
+    "rfsoc4x2_v49_1ch_qsfp_f2_fs4915p2.utilization.rpt": "06e7b726832d5e03f43e47bcca4a42c3548e6f843ee9a3daf57589e88584149b"
+   }
+  },
+  {
+   "name": "rfsoc4x2_v49_2ch_qsfp_f2_fs4915p2",
+   "channels": 2,
+   "factor": 2,
+   "fs_msps": 4915.2,
+   "commit": "ea02c5bb343f55082a219d021bcf745083fb72a1",
+   "rates": [
+    {
+     "msps": 2457.6,
+     "formats": [
+      "sc8"
+     ]
+    },
+    {
+     "msps": 1638.4,
+     "formats": [
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 1228.8,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 983.04,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 819.2,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 614.4,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 491.52,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 409.6,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 307.2,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 245.76,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 204.8,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 122.88,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    }
+   ],
+   "fastest_sc16_msps": 1228.8,
+   "wns_ns": 0.003,
+   "whs_ns": 0.01,
+   "files": {
+    "rfsoc4x2_v49_2ch_qsfp_f2_fs4915p2.bit": "bf8435e619635bb3e48e9025889082f3b0e18a044b5c0f680a7b5609e643d355",
+    "rfsoc4x2_v49_2ch_qsfp_f2_fs4915p2.hwh": "462dae5f50e688228b1a73638b173d967270c2ddae587f880a8eec3ac021dfe3",
+    "rfsoc4x2_v49_2ch_qsfp_f2_fs4915p2.timing_summary.rpt": "4a4fec545d30ed4aac1a66f70d8b2a96da2b1fae8fc3fc91b08032d3b6242d0e",
+    "rfsoc4x2_v49_2ch_qsfp_f2_fs4915p2.utilization.rpt": "4a4811902e16b61acd8315e5eb3afff9e720ecf2cd3a7de4c3b67704e68ad54d"
+   }
+  },
+  {
+   "name": "rfsoc4x2_v49_1ch_qsfp_f2_fs4800",
+   "channels": 1,
+   "factor": 2,
+   "fs_msps": 4800.0,
+   "commit": "524ef671fbd2ed8f9df870cf55d6a6d339d9aa4f",
+   "rates": [
+    {
+     "msps": 2400.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 1600.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 1200.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 960.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 800.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 600.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 480.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 400.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 300.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 240.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 200.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 120.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    }
+   ],
+   "fastest_sc16_msps": 2400.0,
+   "wns_ns": 0.013,
+   "whs_ns": 0.01,
+   "files": {
+    "rfsoc4x2_v49_1ch_qsfp_f2_fs4800.bit": "c9227ac66ad4a84096b31898bbbf5f3302c3eadc43d361e754996bb8641e0219",
+    "rfsoc4x2_v49_1ch_qsfp_f2_fs4800.hwh": "2bdfcc48cc8c13352e6b8034f4131eb812beb46c11ef84855a680719c7dcadbd",
+    "rfsoc4x2_v49_1ch_qsfp_f2_fs4800.timing_summary.rpt": "ca2668fff91309437c5acd343bf4c4985aa9e19091242de78f090e5251cf62bc",
+    "rfsoc4x2_v49_1ch_qsfp_f2_fs4800.utilization.rpt": "545890e8899f454d134c82e7229c8edc41bd4bfc4fc2bd09969aea7f47c33688"
+   }
+  },
+  {
+   "name": "rfsoc4x2_v49_2ch_qsfp_f2_fs4800",
+   "channels": 2,
+   "factor": 2,
+   "fs_msps": 4800.0,
+   "commit": "524ef671fbd2ed8f9df870cf55d6a6d339d9aa4f",
+   "rates": [
+    {
+     "msps": 2400.0,
+     "formats": [
+      "sc8"
+     ]
+    },
+    {
+     "msps": 1600.0,
+     "formats": [
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 1200.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 960.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 800.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 600.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 480.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 400.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 300.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 240.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 200.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 120.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    }
+   ],
+   "fastest_sc16_msps": 1200.0,
+   "wns_ns": 0.063,
+   "whs_ns": 0.011,
+   "files": {
+    "rfsoc4x2_v49_2ch_qsfp_f2_fs4800.bit": "d01fb5aecf02f3e2ac70d362389c0c21ef1d98553d79e6ad6cdb7df25862a7ff",
+    "rfsoc4x2_v49_2ch_qsfp_f2_fs4800.hwh": "26722916bd0c24be011b56d317cbd167b50a8cfccceaf3f9e2da83ec4a73a183",
+    "rfsoc4x2_v49_2ch_qsfp_f2_fs4800.timing_summary.rpt": "9081aa1e017f2105bd0dc376b6d23bb9e6f6343809f4cddacdf2f0c0edd27b26",
+    "rfsoc4x2_v49_2ch_qsfp_f2_fs4800.utilization.rpt": "6c8ca80142ad9c18c218701f4cc0ed7f5a6aed220f9ed16b35a466bcfa35d9ce"
+   }
+  }
+ ]
+}
