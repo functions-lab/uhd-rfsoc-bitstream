@@ -1,0 +1,38 @@
+# Release: on a v* tag, publish a GitHub release with one zip per PYNQ
+# version and board (every build's .bit, .hwh and reports, the set's
+# manifest.json and SHA256SUMS). The tag matches the uhd-rfsoc release the
+# bitstreams belong to.
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check every set
+        run: for d in pynq*/*/; do (cd "$d" && sha256sum -c --quiet SHA256SUMS) || exit 1; done
+      - name: One zip per set
+        run: |
+          mkdir dist
+          for d in pynq*/*/; do
+            v=${d%%/*}; b=$(basename "$d")
+            (cd "$d" && zip -q -9 -X "$GITHUB_WORKSPACE/dist/uhd-rfsoc-bitstreams-$b-$v.zip" *)
+          done
+          (cd dist && sha256sum *.zip > SHA256SUMS)
+      - uses: softprops/action-gh-release@v2
+        with:
+          name: uhd-rfsoc bitstreams ${{ github.ref_name }}
+          body: |
+            Bitstreams of uhd-rfsoc ${{ github.ref_name }}: one zip per PYNQ version and board
+            (`uhd-rfsoc-bitstreams-<board>-pynq<version>.zip`). Unzip the set of the board's PYNQ
+            image and copy it to the board with `rfsoc/push_bitstreams.sh <dir> xilinx@<board-ip>`.
+          files: |
+            dist/*.zip
+            dist/SHA256SUMS

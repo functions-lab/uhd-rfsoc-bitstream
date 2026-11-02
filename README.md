@@ -17,6 +17,10 @@ pynq<version>/<board>/
   SHA256SUMS                           sha256sum -c SHA256SUMS
 ```
 
+Releases are tagged like the uhd-rfsoc release they belong to (`v1.0`
+here = uhd-rfsoc `v1.0`); each GitHub release has one zip per set,
+`uhd-rfsoc-bitstreams-<board>-pynq<version>.zip`.
+
 Use the set of the PYNQ image on the board: `/etc/pynq` or `pip show pynq` on
 the board tells the version. Each PYNQ version is built with its own Vivado
 release (uhd-rfsoc `fpga/flow/versions.txt`): 2021.1 for PYNQ 2.7, 2022.1 for
