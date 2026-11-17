@@ -1,0 +1,293 @@
+{
+ "board": "zcu111",
+ "pynq": "3.1",
+ "vivado": "2024.1",
+ "builds": [
+  {
+   "name": "zcu111_v49_1ch_qsfp_f2_fs4000",
+   "channels": 1,
+   "factor": 2,
+   "fs_msps": 4000.0,
+   "commit": "5cfa219ee332e784860be3aeaf2d33be3186e83c",
+   "rates": [
+    {
+     "msps": 2000.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 1000.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 500.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    }
+   ],
+   "fastest_sc16_msps": 2000.0,
+   "wns_ns": 0.021,
+   "whs_ns": 0.01,
+   "files": {
+    "zcu111_v49_1ch_qsfp_f2_fs4000.bit": "ed4946a8aa4ea2a4de17266189700da6c8d2ef2601d28dda1e4e68d35afa7e26",
+    "zcu111_v49_1ch_qsfp_f2_fs4000.hwh": "fd689683abba5dfcc05b2ae7afe72edd2b7a49799a8c5fb51b0f12b3f6107321",
+    "zcu111_v49_1ch_qsfp_f2_fs4000.timing_summary.rpt": "9b679ca78780bf7fc0b568357f5e557d3eb754d2a0d0cb3a386fdf84d1244d35",
+    "zcu111_v49_1ch_qsfp_f2_fs4000.utilization.rpt": "1017da8bb5d9c7c156d89b0982f9a82b5f83649a7e0e0b13f7adc5720700b0c8"
+   }
+  },
+  {
+   "name": "zcu111_v49_2ch_qsfp_f2_fs4000",
+   "channels": 2,
+   "factor": 2,
+   "fs_msps": 4000.0,
+   "commit": "5cfa219ee332e784860be3aeaf2d33be3186e83c",
+   "rates": [
+    {
+     "msps": 2000.0,
+     "formats": [
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 1000.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 500.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    }
+   ],
+   "fastest_sc16_msps": 1000.0,
+   "wns_ns": 0.007,
+   "whs_ns": 0.01,
+   "files": {
+    "zcu111_v49_2ch_qsfp_f2_fs4000.bit": "974f2e1974db3dfe42723c72756f286a96269b03e313583615b20f66cb454301",
+    "zcu111_v49_2ch_qsfp_f2_fs4000.hwh": "8ec7af95a8bd0da805b4afa648e3560c9d6597d978fe7cc593770ecce5d12070",
+    "zcu111_v49_2ch_qsfp_f2_fs4000.timing_summary.rpt": "a1c44f952e91b2a7ef5ed69b06fb439f417c164023b4232513b40071fc933c94",
+    "zcu111_v49_2ch_qsfp_f2_fs4000.utilization.rpt": "e0020a496e6563a053abaffd1a86a39b8ae28bbe68f83bbc8051c5707a1f48d2"
+   }
+  },
+  {
+   "name": "zcu111_v49_4ch_qsfp_f4_fs4000",
+   "channels": 4,
+   "factor": 4,
+   "fs_msps": 4000.0,
+   "commit": "5cfa219ee332e784860be3aeaf2d33be3186e83c",
+   "rates": [
+    {
+     "msps": 1000.0,
+     "formats": [
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 500.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    }
+   ],
+   "fastest_sc16_msps": 500.0,
+   "wns_ns": 0.016,
+   "whs_ns": 0.012,
+   "files": {
+    "zcu111_v49_4ch_qsfp_f4_fs4000.bit": "5d3dbb11511de8b05bf74985c14ebb06469d7b26400f639313c1da1a07a553c7",
+    "zcu111_v49_4ch_qsfp_f4_fs4000.hwh": "9f6dc3745b708b56dd53e1631533bcf19156865f7927a7aa8533db104a714c64",
+    "zcu111_v49_4ch_qsfp_f4_fs4000.timing_summary.rpt": "9b332b79b8efeb4d8a5bf9181cf1b21515a55d408593db8e3aebe9ae5bfbf44f",
+    "zcu111_v49_4ch_qsfp_f4_fs4000.utilization.rpt": "fb23841aa8152c579dcb7e0ffd01d85ee8db4eb44b5fea5f59900d436795b601"
+   }
+  },
+  {
+   "name": "zcu111_v49_8ch_qsfp_f8_fs4000",
+   "channels": 8,
+   "factor": 8,
+   "fs_msps": 4000.0,
+   "commit": "5cfa219ee332e784860be3aeaf2d33be3186e83c",
+   "rates": [
+    {
+     "msps": 500.0,
+     "formats": [
+      "sc12",
+      "sc8"
+     ]
+    }
+   ],
+   "fastest_sc16_msps": null,
+   "wns_ns": 0.038,
+   "whs_ns": 0.01,
+   "files": {
+    "zcu111_v49_8ch_qsfp_f8_fs4000.bit": "3f34165b25f981717ac6a2c071b9cce54b018fbead88081b8cf66759517793c2",
+    "zcu111_v49_8ch_qsfp_f8_fs4000.hwh": "0aa9b629a88d740c501107837b5f15aad66afe338416990e7d5ba1b279a1c6ab",
+    "zcu111_v49_8ch_qsfp_f8_fs4000.timing_summary.rpt": "624bb2d396b47117be9f3b0278f938e38d8d792f25b56ea47ef996c5c8ef37c9",
+    "zcu111_v49_8ch_qsfp_f8_fs4000.utilization.rpt": "27649006628627ed9f9d7cb1d29eddd787a691c8c24d283362b4a12a540e5397"
+   }
+  },
+  {
+   "name": "zcu111_v49_1ch_qsfp_f2_fs3932p16",
+   "channels": 1,
+   "factor": 2,
+   "fs_msps": 3932.16,
+   "commit": "5cfa219ee332e784860be3aeaf2d33be3186e83c",
+   "rates": [
+    {
+     "msps": 1966.08,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 983.04,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 491.52,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    }
+   ],
+   "fastest_sc16_msps": 1966.08,
+   "wns_ns": 0.003,
+   "whs_ns": 0.01,
+   "files": {
+    "zcu111_v49_1ch_qsfp_f2_fs3932p16.bit": "33f0ab015b00b2c456056e553d3ecfb904b7c170855524662bfaf2ed47db1bae",
+    "zcu111_v49_1ch_qsfp_f2_fs3932p16.hwh": "ad5961f477dacf89d4b2ca5d85083d4fbc0d3338ac3e4883e86fb3f0f932227e",
+    "zcu111_v49_1ch_qsfp_f2_fs3932p16.timing_summary.rpt": "a0eaeef257e2d97f668bb845952462336fd0eef4110ddc8d8812b5e6fdae711b",
+    "zcu111_v49_1ch_qsfp_f2_fs3932p16.utilization.rpt": "82c98d48701fbcb565906b57681511f29d14d496e31e4234bebcb379fbd2e3d8"
+   }
+  },
+  {
+   "name": "zcu111_v49_2ch_qsfp_f2_fs3932p16",
+   "channels": 2,
+   "factor": 2,
+   "fs_msps": 3932.16,
+   "commit": "5cfa219ee332e784860be3aeaf2d33be3186e83c",
+   "rates": [
+    {
+     "msps": 1966.08,
+     "formats": [
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 983.04,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 491.52,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    }
+   ],
+   "fastest_sc16_msps": 983.04,
+   "wns_ns": 0.048,
+   "whs_ns": 0.011,
+   "files": {
+    "zcu111_v49_2ch_qsfp_f2_fs3932p16.bit": "b21a3f0692cccc31fee671db96281d204af477b7d2957e667c0a74b4a6b417df",
+    "zcu111_v49_2ch_qsfp_f2_fs3932p16.hwh": "b58130d2fe776101b16e506247f350eefc2b6b8963a40da2e0db4ba16080d700",
+    "zcu111_v49_2ch_qsfp_f2_fs3932p16.timing_summary.rpt": "124563f3d5e6f39ac94c1bbadd87570d28800ed68a38ed016ec4aeaa30cc72fe",
+    "zcu111_v49_2ch_qsfp_f2_fs3932p16.utilization.rpt": "a5b1c425f2f8ab2d0812bb8bece11099190f8a22d46f25e8ef4c95b96424e952"
+   }
+  },
+  {
+   "name": "zcu111_v49_4ch_qsfp_f4_fs3932p16",
+   "channels": 4,
+   "factor": 4,
+   "fs_msps": 3932.16,
+   "commit": "5cfa219ee332e784860be3aeaf2d33be3186e83c",
+   "rates": [
+    {
+     "msps": 983.04,
+     "formats": [
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 491.52,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    }
+   ],
+   "fastest_sc16_msps": 491.52,
+   "wns_ns": 0.062,
+   "whs_ns": 0.01,
+   "files": {
+    "zcu111_v49_4ch_qsfp_f4_fs3932p16.bit": "0460566b0a113c83d0ce68b15736457ef47bb1536e8573d4ea8579061c2c3b80",
+    "zcu111_v49_4ch_qsfp_f4_fs3932p16.hwh": "c01f3544156a5df3da94f43203ef6e7a5d36724049227f9c0608b4c4330beb18",
+    "zcu111_v49_4ch_qsfp_f4_fs3932p16.timing_summary.rpt": "bcd2a1e57fdecebde17c81200b11757015621ed14fb807583e4cdd76613e12db",
+    "zcu111_v49_4ch_qsfp_f4_fs3932p16.utilization.rpt": "90e34b9ff658e4cec20821491ce41ced6e6a956253ca2d4d9b6a333945448ce2"
+   }
+  },
+  {
+   "name": "zcu111_v49_8ch_qsfp_f8_fs3932p16",
+   "channels": 8,
+   "factor": 8,
+   "fs_msps": 3932.16,
+   "commit": "5cfa219ee332e784860be3aeaf2d33be3186e83c",
+   "rates": [
+    {
+     "msps": 491.52,
+     "formats": [
+      "sc12",
+      "sc8"
+     ]
+    }
+   ],
+   "fastest_sc16_msps": null,
+   "wns_ns": 0.031,
+   "whs_ns": 0.011,
+   "files": {
+    "zcu111_v49_8ch_qsfp_f8_fs3932p16.bit": "ef2e7c1d44e5afbdf4d5e2c0c07e391968b3e650dcd3d0c2085f59cf75bc93d2",
+    "zcu111_v49_8ch_qsfp_f8_fs3932p16.hwh": "6c4d2f2f118bd89480174570aa14c37b57bd014b177147c03c6ca36ff4b18bb9",
+    "zcu111_v49_8ch_qsfp_f8_fs3932p16.timing_summary.rpt": "dd8a2b85e38095fc168881f2428e45a8af5cac4ed54bbeb0ea6046d491041867",
+    "zcu111_v49_8ch_qsfp_f8_fs3932p16.utilization.rpt": "f9ffc852f47b827130da8410098214ed5f34a58f70d3ce3ec091afcf1d6e83f6"
+   }
+  }
+ ]
+}
