@@ -1,0 +1,1204 @@
+{
+ "board": "zcu208",
+ "pynq": "3.0",
+ "vivado": "2022.1",
+ "builds": [
+  {
+   "name": "zcu208_v49_1ch_qsfp_f2_fs5000",
+   "channels": 1,
+   "factor": 2,
+   "fs_msps": 5000.0,
+   "commit": "5cfa219ee332e784860be3aeaf2d33be3186e83c",
+   "rates": [
+    {
+     "msps": 2500.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 1666.666667,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 1250.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 1000.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 833.333333,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 625.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 500.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 416.666667,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 312.5,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 250.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 208.333333,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 125.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    }
+   ],
+   "fastest_sc16_msps": 2500.0,
+   "wns_ns": 0.007,
+   "whs_ns": 0.006,
+   "files": {
+    "zcu208_v49_1ch_qsfp_f2_fs5000.bit": "c90bad043d429e0c00bb015babf498f030ae74cfb009ce9d4ad0a53a47e784c9",
+    "zcu208_v49_1ch_qsfp_f2_fs5000.hwh": "394092aa97bf22eb0d2e3e0b9cc2ca04f328407f61e6d268fed44fd2869c9b9d",
+    "zcu208_v49_1ch_qsfp_f2_fs5000.timing_summary.rpt": "79b44dae940692962aa0bb6c6802066b224e0caed17a82f989c55c0fa5006c68",
+    "zcu208_v49_1ch_qsfp_f2_fs5000.utilization.rpt": "d531c1785d217aa595cd60ed9b1f59d4e1c7e38a13bfc5642ade1d1434f0467a"
+   }
+  },
+  {
+   "name": "zcu208_v49_2ch_qsfp_f2_fs5000",
+   "channels": 2,
+   "factor": 2,
+   "fs_msps": 5000.0,
+   "commit": "5cfa219ee332e784860be3aeaf2d33be3186e83c",
+   "rates": [
+    {
+     "msps": 2500.0,
+     "formats": [
+      "sc8"
+     ]
+    },
+    {
+     "msps": 1666.666667,
+     "formats": [
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 1250.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 1000.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 833.333333,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 625.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 500.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 416.666667,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 312.5,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 250.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 208.333333,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 125.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    }
+   ],
+   "fastest_sc16_msps": 1250.0,
+   "wns_ns": 0.051,
+   "whs_ns": 0.009,
+   "files": {
+    "zcu208_v49_2ch_qsfp_f2_fs5000.bit": "f7a3e7e456c0a39693641a50569d75a319f5662cea6f7e88b6aa7309ea8de96a",
+    "zcu208_v49_2ch_qsfp_f2_fs5000.hwh": "3e0c47a4868c58e3d5bc808377917e599f4515b10b81eac3a5c1b2ed2d7e2653",
+    "zcu208_v49_2ch_qsfp_f2_fs5000.timing_summary.rpt": "57470dce8e7e4f3039003fa95bbffc0bc69844271ffcb87f09d026a88f40321b",
+    "zcu208_v49_2ch_qsfp_f2_fs5000.utilization.rpt": "2af9b69add69eb7d90ba14e067c5128211a3f8b3a10affeddaa55b284d2395a0"
+   }
+  },
+  {
+   "name": "zcu208_v49_4ch_qsfp_f4_fs5000",
+   "channels": 4,
+   "factor": 4,
+   "fs_msps": 5000.0,
+   "commit": "5cfa219ee332e784860be3aeaf2d33be3186e83c",
+   "rates": [
+    {
+     "msps": 1250.0,
+     "formats": [
+      "sc8"
+     ]
+    },
+    {
+     "msps": 1000.0,
+     "formats": [
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 833.333333,
+     "formats": [
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 625.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 500.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 416.666667,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 312.5,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 250.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 208.333333,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 125.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    }
+   ],
+   "fastest_sc16_msps": 625.0,
+   "wns_ns": 0.013,
+   "whs_ns": 0.011,
+   "files": {
+    "zcu208_v49_4ch_qsfp_f4_fs5000.bit": "d61de3483b47b3cd32cb602350eb485a460802326ff0896b765c3ba95cba01f8",
+    "zcu208_v49_4ch_qsfp_f4_fs5000.hwh": "6f2de9fad4d2f585450f063bfafe2a424bf19be09bb292548ba05c8a68a0d3b1",
+    "zcu208_v49_4ch_qsfp_f4_fs5000.timing_summary.rpt": "602c43d0c05f3a05ae7de508389351476f4c4c999f5d47692a3d71abafb6cfdc",
+    "zcu208_v49_4ch_qsfp_f4_fs5000.utilization.rpt": "f343dca8fb9d25f1fa0c2f331ba4636671e1f9fdef5d4d347e84fe062baec7a6"
+   }
+  },
+  {
+   "name": "zcu208_v49_8ch_qsfp_f8_fs5000",
+   "channels": 8,
+   "factor": 8,
+   "fs_msps": 5000.0,
+   "commit": "5cfa219ee332e784860be3aeaf2d33be3186e83c",
+   "rates": [
+    {
+     "msps": 625.0,
+     "formats": [
+      "sc8"
+     ]
+    },
+    {
+     "msps": 500.0,
+     "formats": [
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 416.666667,
+     "formats": [
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 312.5,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 250.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 208.333333,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 125.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    }
+   ],
+   "fastest_sc16_msps": 312.5,
+   "wns_ns": 0.039,
+   "whs_ns": 0.01,
+   "files": {
+    "zcu208_v49_8ch_qsfp_f8_fs5000.bit": "1b486dd25d2d59007e9ea622601ef187d1905b57208e090c278ad6c491261622",
+    "zcu208_v49_8ch_qsfp_f8_fs5000.hwh": "edd670b77ba755c04b1cf9221d0f05e9393ccf31bf7d16d28014f59fed0d694b",
+    "zcu208_v49_8ch_qsfp_f8_fs5000.timing_summary.rpt": "fb337c8c8ce90ee7dcb23dc27a518a5899e8406f4f6b592ae2261df407344e48",
+    "zcu208_v49_8ch_qsfp_f8_fs5000.utilization.rpt": "a92ad9cc9ca309cfdd1d651c19c3567e8dd31a517764978007ae0335ce8a6613"
+   }
+  },
+  {
+   "name": "zcu208_v49_1ch_qsfp_f2_fs4915p2",
+   "channels": 1,
+   "factor": 2,
+   "fs_msps": 4915.2,
+   "commit": "5cfa219ee332e784860be3aeaf2d33be3186e83c",
+   "rates": [
+    {
+     "msps": 2457.6,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 1638.4,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 1228.8,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 983.04,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 819.2,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 614.4,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 491.52,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 409.6,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 307.2,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 245.76,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 204.8,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 122.88,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    }
+   ],
+   "fastest_sc16_msps": 2457.6,
+   "wns_ns": 0.005,
+   "whs_ns": 0.009,
+   "files": {
+    "zcu208_v49_1ch_qsfp_f2_fs4915p2.bit": "2de31948d3cc69e0a69d072cd267c02516147838c11d067a411b0347be678b61",
+    "zcu208_v49_1ch_qsfp_f2_fs4915p2.hwh": "914df8d952dce49ac585bacf0271b599fa2f5c603c501709ecf16111b9490708",
+    "zcu208_v49_1ch_qsfp_f2_fs4915p2.timing_summary.rpt": "cce4bb3f87b7b87464c139d5dcec7fd10d13c413c65ee1c28a615f73bfac189f",
+    "zcu208_v49_1ch_qsfp_f2_fs4915p2.utilization.rpt": "fefa5fa9dcc67bb50c76d403ddf67c5b47ba68ccc178b64637094f1af7637bfd"
+   }
+  },
+  {
+   "name": "zcu208_v49_2ch_qsfp_f2_fs4915p2",
+   "channels": 2,
+   "factor": 2,
+   "fs_msps": 4915.2,
+   "commit": "5cfa219ee332e784860be3aeaf2d33be3186e83c",
+   "rates": [
+    {
+     "msps": 2457.6,
+     "formats": [
+      "sc8"
+     ]
+    },
+    {
+     "msps": 1638.4,
+     "formats": [
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 1228.8,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 983.04,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 819.2,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 614.4,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 491.52,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 409.6,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 307.2,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 245.76,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 204.8,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 122.88,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    }
+   ],
+   "fastest_sc16_msps": 1228.8,
+   "wns_ns": 0.054,
+   "whs_ns": 0.01,
+   "files": {
+    "zcu208_v49_2ch_qsfp_f2_fs4915p2.bit": "6ad86061c7fec58c60d068deb0ecb354bd4133f9cbd732fe7ede84298f197a4a",
+    "zcu208_v49_2ch_qsfp_f2_fs4915p2.hwh": "c674c2fa6f9c189039db59a23baa15bec5918205ecde5b33188e57e5660f0b8c",
+    "zcu208_v49_2ch_qsfp_f2_fs4915p2.timing_summary.rpt": "b8032418205bb7e74c7c143f9cd18c682faf2cf65fd52873884b271a79629185",
+    "zcu208_v49_2ch_qsfp_f2_fs4915p2.utilization.rpt": "a82d5c4c7fa776c68e4c41e5c336129b5c5e47220cdd27a00cbe20bda4b8e025"
+   }
+  },
+  {
+   "name": "zcu208_v49_4ch_qsfp_f4_fs4915p2",
+   "channels": 4,
+   "factor": 4,
+   "fs_msps": 4915.2,
+   "commit": "5cfa219ee332e784860be3aeaf2d33be3186e83c",
+   "rates": [
+    {
+     "msps": 1228.8,
+     "formats": [
+      "sc8"
+     ]
+    },
+    {
+     "msps": 983.04,
+     "formats": [
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 819.2,
+     "formats": [
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 614.4,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 491.52,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 409.6,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 307.2,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 245.76,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 204.8,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 122.88,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    }
+   ],
+   "fastest_sc16_msps": 614.4,
+   "wns_ns": 0.059,
+   "whs_ns": 0.01,
+   "files": {
+    "zcu208_v49_4ch_qsfp_f4_fs4915p2.bit": "5e531f1528ced85ca8f490e2215b857cddf1bbad90c6fa6fef8f0fa7f20bc02a",
+    "zcu208_v49_4ch_qsfp_f4_fs4915p2.hwh": "6652e2af3a98bd312a3cfb3041d7d4211e8049e521cca9d0abe06dba6b5aa15d",
+    "zcu208_v49_4ch_qsfp_f4_fs4915p2.timing_summary.rpt": "81c6d81b9c6d5e7fcfd284ae5ad075311957672778b7b0696d7c9128ba0e1b71",
+    "zcu208_v49_4ch_qsfp_f4_fs4915p2.utilization.rpt": "af17a7e5577a90e9ebb33e4715830c05446a7b96b3f0a8e69a9882eed47430f8"
+   }
+  },
+  {
+   "name": "zcu208_v49_8ch_qsfp_f8_fs4915p2",
+   "channels": 8,
+   "factor": 8,
+   "fs_msps": 4915.2,
+   "commit": "5cfa219ee332e784860be3aeaf2d33be3186e83c",
+   "rates": [
+    {
+     "msps": 614.4,
+     "formats": [
+      "sc8"
+     ]
+    },
+    {
+     "msps": 491.52,
+     "formats": [
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 409.6,
+     "formats": [
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 307.2,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 245.76,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 204.8,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 122.88,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    }
+   ],
+   "fastest_sc16_msps": 307.2,
+   "wns_ns": 0.03,
+   "whs_ns": 0.01,
+   "files": {
+    "zcu208_v49_8ch_qsfp_f8_fs4915p2.bit": "2f97bd637300c9331a4fa1c6f8912b203827810e2457da362e8fe2900511a7c3",
+    "zcu208_v49_8ch_qsfp_f8_fs4915p2.hwh": "8783bf182979ffeeee18ac3402a4d0ec4c9bab6bab1067d731b72767a4b27cdc",
+    "zcu208_v49_8ch_qsfp_f8_fs4915p2.timing_summary.rpt": "b47ab00be48024a9475483d7ef43a2070b00da3512b70d30c16dd05cf1885210",
+    "zcu208_v49_8ch_qsfp_f8_fs4915p2.utilization.rpt": "7cb10520bf1cc62d0f5988ca92632927f58830870a8f856b2610045da7137275"
+   }
+  },
+  {
+   "name": "zcu208_v49_1ch_qsfp_f2_fs4800",
+   "channels": 1,
+   "factor": 2,
+   "fs_msps": 4800.0,
+   "commit": "5cfa219ee332e784860be3aeaf2d33be3186e83c",
+   "rates": [
+    {
+     "msps": 2400.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 1600.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 1200.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 960.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 800.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 600.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 480.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 400.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 300.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 240.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 200.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    },
+    {
+     "msps": 120.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8",
+      "fc32"
+     ]
+    }
+   ],
+   "fastest_sc16_msps": 2400.0,
+   "wns_ns": 0.009,
+   "whs_ns": 0.01,
+   "files": {
+    "zcu208_v49_1ch_qsfp_f2_fs4800.bit": "621085717e149f8097b2090844ca2e2fb4b43c18f555745e431b3ea56f1f2c9d",
+    "zcu208_v49_1ch_qsfp_f2_fs4800.hwh": "ef5a39cc2e753c15a2973901177bab39022720e38fa30a906ee5ca4ee401d406",
+    "zcu208_v49_1ch_qsfp_f2_fs4800.timing_summary.rpt": "0eb5ba7d6d1c9217669610abf57b88d917082c4c7df12434e0d4a5104a31744f",
+    "zcu208_v49_1ch_qsfp_f2_fs4800.utilization.rpt": "48f152c08a2f948231f5d1cc74ae643d7b570b3faffea50ac198a4b770735f3a"
+   }
+  },
+  {
+   "name": "zcu208_v49_2ch_qsfp_f2_fs4800",
+   "channels": 2,
+   "factor": 2,
+   "fs_msps": 4800.0,
+   "commit": "5cfa219ee332e784860be3aeaf2d33be3186e83c",
+   "rates": [
+    {
+     "msps": 2400.0,
+     "formats": [
+      "sc8"
+     ]
+    },
+    {
+     "msps": 1600.0,
+     "formats": [
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 1200.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 960.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 800.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 600.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 480.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 400.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 300.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 240.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 200.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 120.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    }
+   ],
+   "fastest_sc16_msps": 1200.0,
+   "wns_ns": 0.023,
+   "whs_ns": 0.01,
+   "files": {
+    "zcu208_v49_2ch_qsfp_f2_fs4800.bit": "6cfe3793821ede5a307681b90c01b925ef5f22c90bdc507b3071b2ceecf7ae97",
+    "zcu208_v49_2ch_qsfp_f2_fs4800.hwh": "2fbdfe8e8019dae316c134ab41a5ebdcf182b025326616b5dd5ed6214acf40b6",
+    "zcu208_v49_2ch_qsfp_f2_fs4800.timing_summary.rpt": "f16785e6d9bf848bb26425afbb578c6d951c386e1afbfe6d0d8e0a8457a9a1f2",
+    "zcu208_v49_2ch_qsfp_f2_fs4800.utilization.rpt": "27d02ce16d63fe7de4c8cf115cf694b87e1d17971be0e8164b59a0924bf165a7"
+   }
+  },
+  {
+   "name": "zcu208_v49_4ch_qsfp_f4_fs4800",
+   "channels": 4,
+   "factor": 4,
+   "fs_msps": 4800.0,
+   "commit": "5cfa219ee332e784860be3aeaf2d33be3186e83c",
+   "rates": [
+    {
+     "msps": 1200.0,
+     "formats": [
+      "sc8"
+     ]
+    },
+    {
+     "msps": 960.0,
+     "formats": [
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 800.0,
+     "formats": [
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 600.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 480.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 400.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 300.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 240.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 200.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 120.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    }
+   ],
+   "fastest_sc16_msps": 600.0,
+   "wns_ns": 0.016,
+   "whs_ns": 0.01,
+   "files": {
+    "zcu208_v49_4ch_qsfp_f4_fs4800.bit": "c4ca9166a70e9e6b4f112118fbf7ab13278dbaa25e712d91151cc7f0474e69cb",
+    "zcu208_v49_4ch_qsfp_f4_fs4800.hwh": "419954e502d2e4e4bf9c7187fa9107ccfa1325d1938e8b897e10e54eaa4b22cb",
+    "zcu208_v49_4ch_qsfp_f4_fs4800.timing_summary.rpt": "5322cee7738cbb2ecab8b004e4c0ddbc6f1aec13e8ce3ad7d7ffb75bd7264161",
+    "zcu208_v49_4ch_qsfp_f4_fs4800.utilization.rpt": "0ba111a9686f82c0b994b90a9c90565f30386860ea3064390b768629b8dbdbe9"
+   }
+  },
+  {
+   "name": "zcu208_v49_8ch_qsfp_f8_fs4800",
+   "channels": 8,
+   "factor": 8,
+   "fs_msps": 4800.0,
+   "commit": "5cfa219ee332e784860be3aeaf2d33be3186e83c",
+   "rates": [
+    {
+     "msps": 600.0,
+     "formats": [
+      "sc8"
+     ]
+    },
+    {
+     "msps": 480.0,
+     "formats": [
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 400.0,
+     "formats": [
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 300.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 240.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 200.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    },
+    {
+     "msps": 120.0,
+     "formats": [
+      "sc16",
+      "sc12",
+      "sc8"
+     ]
+    }
+   ],
+   "fastest_sc16_msps": 300.0,
+   "wns_ns": 0.029,
+   "whs_ns": 0.01,
+   "files": {
+    "zcu208_v49_8ch_qsfp_f8_fs4800.bit": "6745852a852c348903385f2729520755d7e5c40271ba56f4d25280d8cfb8d881",
+    "zcu208_v49_8ch_qsfp_f8_fs4800.hwh": "eb339f83c253d0a1b52a9f436823c1dc05a7a00c17117c07654864d40e8d82f9",
+    "zcu208_v49_8ch_qsfp_f8_fs4800.timing_summary.rpt": "dd00afd8d7fc394517ba7d94cf9927c1b08eb86a33c4b36826777533c70c5e70",
+    "zcu208_v49_8ch_qsfp_f8_fs4800.utilization.rpt": "aa7578572af0eb5c2d42e74f7733edc9eb67fe22ce65625e6a89038e05245b54"
+   }
+  }
+ ]
+}
